@@ -1,0 +1,24 @@
+{
+  "name": "iitg_autologin_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rkrishnavedic/iitg_autologin_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rkrishnavedic/iitg_autologin_app/issues"
+  },
+  "homepage": "https://github.com/rkrishnavedic/iitg_autologin_app#readme",
+  "dependencies": {
+    "electron": "^17.1.2"
+  }
+}
