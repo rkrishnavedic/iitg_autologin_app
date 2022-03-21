@@ -11,24 +11,35 @@
   <body>
     <div class="header">
       <img width="100px" src="assets/IITG_logo.png" alt="IITG_LOGO_PNG"/>
-      <h1>Autologin IITG!</h1>
+      <h1>App Credentials!</h1>
     </div>
 
+    <div>
+    <form class="form_container" id="_form" action="#">
+      <div>
+        <input type="text" placeholder="Username" id="_user"/>
+      </div>
 
-    <div class="buttons_container">
-      <button class="button buttonsafe" id="__connect_btn">(Re)connect</button>
-      <button class="button buttondanger" id="__logout_btn">Logout</button>
-      <!-- <a href="./change_creds.html" class="button" id="__change_cred">Preferences</a> -->
+      <div>
+        <input type="password" placeholder="Password" id="_pass"/>
+      </div>
+
+      <div>
+        <button type="submit" class="button buttonsafe" id="__change_btn">Change</button>
+        <a href="./index.html" class="button buttondanger" id="__discard_btn">Discard</a>
+      </div>
+      <a href="https://online.iitg.ac.in/user/resetpwd">Reset Your IITG Creds Here</a>
+    </form>
     </div>
 
-    <p class="log" id="__log">Not Connected Yet!</p>
+    <p class="log" id="__log"></p>
     <div id="lds-container" class="lds-container"></div>
+
     <footer class="footer">
-      <p><a href="./change_creds.html">Change Credentials</a>
+      <p><a href="./index.html">Go Back</a>
         | Issues? Write to us <a href="https://github.com/rkrishnavedic/iitg_autologin_app/issues">here!</a></p>
     </footer>
 
-    <script src="./renderer.js"></script>
-    <script src="./background.js"></script>
+    <script src="./change_creds.js"></script>
   </body>
 </html>

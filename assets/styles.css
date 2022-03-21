@@ -1,5 +1,6 @@
 *{
     font-family: courier new;
+    margin-top: 15px;
 }
 
 body{
@@ -7,7 +8,42 @@ body{
   text-align: center;
 }
 
+.form_container{
+  text-align: center;
+  width: 100%;
+  align-items: center;
+}
+
+form{
+  display: flex;flex-direction: column;
+  text-align: center;
+}
+
+form div{
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+input[type=text], input[type=password], select {
+  padding: 12px;
+  width: 250px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: -10px;
+  font-size: 16px;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+
+.log{
+  margin: auto;
+  padding: 10px;
+}
+
 .button {
+  margin: 3px;
  display: inline-block;
  padding: 12px 24px;
  border: 1px solid #4f4f4f;
@@ -21,6 +57,7 @@ body{
  color: black;
  background: white;
  z-index: 1;
+ text-decoration: none;
 }
 
 .button:before {
@@ -114,4 +151,13 @@ body{
  top: -45%;
  background-color: #ff3333;
  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #eee;
+  text-align: center;
 }

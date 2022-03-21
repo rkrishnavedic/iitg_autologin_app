@@ -1,5 +1,5 @@
 {
-  "name": "iitg_autologin_app",
+  "name": "IITG Autologin",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/rkrishnavedic/iitg_autologin_app#readme",
   "dependencies": {
-    "electron": "^17.1.2"
+    "electron": "^17.1.2",
+    "keytar": "^7.9.0"
   }
 }
