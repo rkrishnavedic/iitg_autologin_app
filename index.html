@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
-    <link href="./styles.css" rel="stylesheet">
+    <link href="assets/styles.css" rel="stylesheet">
     <title>IITG Autologin</title>
   </head>
   <body>
     <div>
-      <img width="100px" src="logo/IITG_logo.png" alt="IITG_LOGO_PNG"/>
+      <img width="100px" src="assets/IITG_logo.png" alt="IITG_LOGO_PNG"/>
     </div>
     <h1>Autologin IITG!</h1>
-    We are using Node.js <span id="node-version"></span>,
-    Chromium <span id="chrome-version"></span>,
-    and Electron <span id="electron-version"></span>.
+
+    <button class="button buttonsafe" id="__connect_btn">Connect</button>
+    <button class="button buttondanger" id="__logout_btn">Logout</button>
+    <button class="button" id="__change_cred">Preferences</button>
+
+    <p id="__log">Connected!</p>
 
     <script src="./renderer.js"></script>
   </body>
