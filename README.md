@@ -9,7 +9,8 @@ Here are the files for different OS
 
 ##### installation instructions (DEB on Ubuntu)
 1. Get the files from the link above
-2. `sudo apt install ./iitg-autologin_1.0.0_amd64.deb`
+2. `sudo apt install /path/to/file/file.deb`
+3. Example: `sudo apt install ./file.deb` if the file is in the same directory
   
 <br/>
 [RPM] https://github.com/rkrishnavedic/iitg_autologin_app_setup_files/blob/main/IITG-Autologin-1.0.0-1.x86_64.rpm
